@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+select {
+  @apply border-gray-500/10 border-b bg-transparent px-2  py-4 text-blue-800;
+}
+
+button {
+  @apply !bg-blue-500 text-white font-bold uppercase flex flex-col px-20 py-2 rounded;
+}
